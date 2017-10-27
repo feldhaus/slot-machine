@@ -1,0 +1,8 @@
+# Dependency directories
+node_modules
+
+# Distribution directory
+dist
+
+# Optional npm cache directory
+.npm

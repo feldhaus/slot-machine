@@ -1,0 +1,13 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "object-literal-sort-keys": false,
+        "typedef": [
+            true,
+            "call-signature",
+            "property-declaration",
+            "variable-declaration",
+            "parameter"
+        ]
+    }
+}
