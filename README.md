@@ -1,5 +1,5 @@
 # SLOT-MACHINE
-A simple 3x3 scratchcard game coded in Typescript using PIXI.js.
+A slot machine game coded in Typescript using PIXI.js.
 
 ## Setup
 
