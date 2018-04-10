@@ -13,6 +13,7 @@ export class Tile extends PIXI.Container {
     constructor(width: number, height: number) {
         super();
 
+        // store width and height
         this.tileWidth = width;
         this.tileHeight = height;
 
@@ -25,7 +26,7 @@ export class Tile extends PIXI.Container {
 
         // add sprite
         this.sprite = new PIXI.Sprite();
-        this.sprite.scale.set(0.9, 0.9);
+        this.sprite.scale.set(0.4, 0.4);
         this.sprite.anchor.set(0.5, 0.5);
         this.sprite.position.set(width * 0.5, height * 0.5);
         this.addChild(this.sprite);
@@ -33,7 +34,7 @@ export class Tile extends PIXI.Container {
     }
 
     public swap(): void {
-        // get a random value
+        // get a random symbol id
         this.id = Math.floor(Math.random() * data.symbols.length);
 
         // verify if already have texture

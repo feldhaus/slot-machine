@@ -10,7 +10,7 @@ export class Main extends PIXI.Application {
     private scenes: Scene[];
 
     constructor() {
-        super(800, 600, {backgroundColor: 0x3aaaa3, legacy: true});
+        super(GameScene.width, GameScene.height, {backgroundColor: 0x3aaaa3, legacy: true});
         document.body.appendChild(this.view);
 
         this.scenes = [];
