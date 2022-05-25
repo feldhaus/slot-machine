@@ -1,17 +1,17 @@
 {
-    "version": "1.0.0",
-    "compilerOptions": {
-        "target": "es5",
-        "moduleResolution": "node",
-        "noImplicitAny": false,
-        "noImplicitReturns": false,
-        "removeComments": false,
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "sourceMap": true,
-        "outDir": "dist"
-    },
-    "exclude": [
-        "node_modules"
-    ]
+  "compilerOptions": {
+    "lib": ["es6", "dom"],
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "module": "ESNext",
+    "target": "ESNext"
+  },
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
